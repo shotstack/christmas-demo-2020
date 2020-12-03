@@ -41,25 +41,18 @@
                 <form class="jumbotron" method="post">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2>Variables</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
                             <div class="form-group">
                                 <label for="name">Recipient name</label>
                                 <input name="name"
-                                    type="number"
-                                    min=0
-                                    max=100
-                                    step=1
-                                    pattern="[0-1]"
-                                    oninvalid="setCustomValidity('Only values between 0 and 100 are allowed')"
+                                    type="text"
+                                    pattern=".{0}|.{1,15}"
+                                    oninvalid="setCustomValidity('Empty or between 1 and 15 characters')"
                                     oninput="setCustomValidity('')"
                                     class="form-control"
                                     id="name"
-                                    value="20"
-                                    maxlength="3"
+                                    value="Jeff"
+                                    maxlength="15"
+                                    required
                                 />
                             </div>
                         </div>
@@ -69,17 +62,15 @@
                             <div class="form-group">
                                 <label for="message">Personal message</label>
                                 <input name="message"
-                                    type="number"
-                                    min=0
-                                    max=100
-                                    step=1
-                                    pattern="[0-1]"
-                                    oninvalid="setCustomValidity('Only values between 0 and 100 are allowed')"
+                                    type="text"
+                                    pattern=".{0}|.{1,40}"
+                                    oninvalid="setCustomValidity('Empty or between 1 and 40 characters')"
                                     oninput="setCustomValidity('')"
                                     class="form-control"
                                     id="message"
-                                    value="20"
-                                    maxlength="3"
+                                    value="Warmest wishes from the Zomer family"
+                                    maxlength="40"
+                                    required
                                 />
                             </div>
                         </div>

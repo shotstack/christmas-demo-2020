@@ -1,4 +1,4 @@
-var apiUrl = 'http://localhost:3000/demo/'; // 'https://jeh7qrmbub.execute-api.ap-southeast-2.amazonaws.com/demo/';
+var apiUrl = 'https://zyl6dj5116.execute-api.ap-southeast-2.amazonaws.com/demo/'; // 'https://jeh7qrmbub.execute-api.ap-southeast-2.amazonaws.com/demo/';
 var apiEndpoint = apiUrl + 'shotstack';
 var urlEndpoint = apiUrl + 'upload/sign';
 var probeEndpoint = 'https://api.shotstack.io/stage/probe/';
@@ -60,7 +60,6 @@ function pollVideoStatus(id) {
         } else {
             initialiseVideo(response.data.url);
             initialiseJson(response.data.data);
-            initialiseDownload(response.data.url);
             resetForm();
         }
     });
@@ -266,14 +265,9 @@ $(document).ready(function () {
 
     /** Form submit event */
     $('form').submit(function (event) {
-        if (isFormValid()) {
-            resetErrors();
-            resetVideo();
-            submitVideoEdit();
-        } else {
-            displayError('Please select both a video and a watermark.')
-        }
-
+        resetErrors();
+        resetVideo();
+        submitVideoEdit();
         event.preventDefault();
     });
 });
