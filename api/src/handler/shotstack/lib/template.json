@@ -109,7 +109,7 @@
                         "asset": {
                             "type": "html",
                             "html": "<p>Much love from the Smith Family</p>",
-                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 42px; text-align: center; }",
+                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 42px; text-align: center; }",
                             "width": 600,
                             "height": 400,
                             "background": "transparent"
