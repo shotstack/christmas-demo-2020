@@ -10,29 +10,6 @@
                 "clips": [
                     {
                         "asset": {
-                            "type": "luma",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/luma-mattes/snowflakes-invert.mp4"
-                        },
-                        "start": 0,
-                        "length": 5
-                    },
-                    {
-                        "asset": {
-                            "type": "html",
-                            "html": "<p>&nbsp;</p>",
-                            "width": 1024,
-                            "height": 576,
-                            "background": "#ffffff"
-                        },
-                        "start": 0,
-                        "length": 5
-                    }
-                ]
-            },
-            {
-                "clips": [
-                    {
-                        "asset": {
                             "type": "html",
                             "html": "<p>Happy Holidays</p>",
                             "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 36px; text-align: center; }",
