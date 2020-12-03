@@ -1,0 +1,206 @@
+{
+    "timeline": {
+        "soundtrack": {
+            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/christmas/silent-night.mp3",
+            "effect": "fadeOut"
+        },
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "luma",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/luma-mattes/snowflakes-invert.mp4"
+                        },
+                        "start": 0,
+                        "length": 5
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>&nbsp;</p>",
+                            "width": 1024,
+                            "height": 576,
+                            "background": "#ffffff"
+                        },
+                        "start": 0,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Happy Holidays</p>",
+                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 36px; text-align: center; }",
+                            "width": 600,
+                            "height": 400,
+                            "background": "transparent"
+                        },
+                        "start": 1,
+                        "length": 4,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "center",
+                        "offset": {
+                            "y": 0.2
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Derk</p>",
+                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 56px; text-align: center; }",
+                            "width": 400,
+                            "height": 300,
+                            "background": "transparent"
+                        },
+                        "start": 2,
+                        "length": 3,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Best Wishes For</p>",
+                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 36px; text-align: center; }",
+                            "width": 600,
+                            "height": 400,
+                            "background": "transparent"
+                        },
+                        "start": 8.5,
+                        "length": 4,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "center",
+                        "offset": {
+                            "y": 0.2
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>2021</p>",
+                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 74px; text-align: center; }",
+                            "width": 600,
+                            "height": 400,
+                            "background": "transparent"
+                        },
+                        "start": 9.5,
+                        "length": 3,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Much love from the Smith Family</p>",
+                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 56px; text-align: center; }",
+                            "width": 600,
+                            "height": 400,
+                            "background": "transparent"
+                        },
+                        "start": 14,
+                        "length": 3,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "center"
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>powered by Shotstack</p>",
+                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 12px; text-align: center; }",
+                            "width": 1200,
+                            "height": 800,
+                            "background": "transparent"
+                        },
+                        "start": 18,
+                        "length": 2,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        },
+                        "position": "bottom"
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/lights.mp4"
+                        },
+                        "start": 0,
+                        "length": 5
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-dancing.mp4"
+                        },
+                        "start": 5,
+                        "length": 3
+                    },        
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/fireworks.mp4"
+                        },
+                        "start": 8,
+                        "length": 5
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-ironing.mp4"
+                        },
+                        "start": 12,
+                        "length": 2
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/presents-2.mp4"
+                        },
+                        "start": 14,
+                        "length": 2
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-hello.mp4"
+                        },
+                        "start": 16,
+                        "length": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "preview"
+    }
+}
