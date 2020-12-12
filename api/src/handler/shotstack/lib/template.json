@@ -1,124 +1,104 @@
 {
     "timeline": {
-        "soundtrack": {
-            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/christmas/silent-night.mp3",
-            "effect": "fadeOut"
-        },
-        "background": "#000000",
         "tracks": [
             {
                 "clips": [
                     {
                         "asset": {
                             "type": "html",
-                            "html": "<p>Happy Holidays</p>",
-                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 36px; text-align: center; }",
-                            "width": 600,
-                            "height": 400,
-                            "background": "transparent"
+                            "html": "<p>MERRY CHRISTMAS</p>",
+                            "css": "p { font-family: \"Montserrat\"; color: #ffffff; font-size: 14px; text-align: center; font-weight: bold }",
+                            "width": 450,
+                            "height": 30
                         },
-                        "start": 1,
-                        "length": 4,
+                        "start": 3.8,
+                        "length": 3.4,
                         "transition": {
                             "in": "fade",
-                            "out": "fade"
+                            "out": "slideDown"
                         },
-                        "position": "center",
                         "offset": {
-                            "y": 0.2
-                        }
+                            "x": -0.1,
+                            "y": 0.08
+                        },
+                        "position": "right"
                     },
                     {
                         "asset": {
                             "type": "html",
-                            "html": "<p>Derk</p>",
-                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 56px; text-align: center; }",
-                            "width": 400,
-                            "height": 300,
-                            "background": "transparent"
+                            "html": "<p>{{NAME}}</p>",
+                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 64px; text-align: center; }",
+                            "width": 450,
+                            "height": 100
                         },
-                        "start": 2,
-                        "length": 3,
+                        "start": 4,
+                        "length": 2.8,
                         "transition": {
                             "in": "fade",
-                            "out": "fade"
+                            "out": "slideDown"
                         },
-                        "position": "center"
-                    },
-                    {
-                        "asset": {
-                            "type": "html",
-                            "html": "<p>Best Wishes For</p>",
-                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 36px; text-align: center; }",
-                            "width": 600,
-                            "height": 400,
-                            "background": "transparent"
-                        },
-                        "start": 8.5,
-                        "length": 4,
-                        "transition": {
-                            "in": "fade",
-                            "out": "fade"
-                        },
-                        "position": "center",
                         "offset": {
-                            "y": 0.2
-                        }
+                            "x": -0.1
+                        },
+                        "position": "right"
                     },
                     {
                         "asset": {
                             "type": "html",
-                            "html": "<p>2021</p>",
-                            "css": "p { font-family: \"Chunk\"; font-weight: bold; color: #ffffff; font-size: 74px; text-align: center; }",
-                            "width": 600,
-                            "height": 400,
-                            "background": "transparent"
+                            "html": "<p>{{MESSAGE}}</p>",
+                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 54px; text-align: center; }",
+                            "width": 450,
+                            "height": 200
                         },
-                        "start": 9.5,
-                        "length": 3,
+                        "start": 7.2,
+                        "length": 3.4,
                         "transition": {
                             "in": "fade",
-                            "out": "fade"
+                            "out": "slideDown"
                         },
-                        "position": "center"
+                        "offset": {
+                            "x": -0.1
+                        },
+                        "position": "right"
                     },
                     {
                         "asset": {
                             "type": "html",
-                            "html": "<p>Much love from the Smith Family</p>",
-                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 42px; text-align: center; }",
-                            "width": 600,
-                            "height": 400,
-                            "background": "transparent"
+                            "html": "<p>FROM</p>",
+                            "css": "p { font-family: \"Montserrat\"; color: #ffffff; font-size: 14px; text-align: center; font-weight: bold }",
+                            "width": 450,
+                            "height": 30
                         },
-                        "start": 14,
-                        "length": 3,
+                        "start": 10.4,
+                        "length": 3.4,
                         "transition": {
                             "in": "fade",
-                            "out": "fade"
+                            "out": "slideDown"
                         },
-                        "position": "center"
-                    }
-                ]
-            },
-            {
-                "clips": [
+                        "offset": {
+                            "x": -0.1,
+                            "y": 0.08
+                        },
+                        "position": "right"
+                    },
                     {
                         "asset": {
                             "type": "html",
-                            "html": "<p>powered by Shotstack</p>",
-                            "css": "p { font-family: \"Chunk\"; color: #ffffff; font-size: 12px; text-align: center; }",
-                            "width": 1200,
-                            "height": 800,
-                            "background": "transparent"
+                            "html": "<p>{{SENDER}}</p>",
+                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 64px; text-align: center; }",
+                            "width": 450,
+                            "height": 100
                         },
-                        "start": 18,
-                        "length": 2,
+                        "start": 10.6,
+                        "length": 3,
                         "transition": {
                             "in": "fade",
-                            "out": "fade"
+                            "out": "slideDown"
                         },
-                        "position": "bottom"
+                        "offset": {
+                            "x": -0.1
+                        },
+                        "position": "right"
                     }
                 ]
             },
@@ -127,57 +107,27 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/lights.mp4"
+                            "src": "https://shotstack-content.s3-ap-southeast-2.amazonaws.com/christmas-2020/christmas-tree-branded.mp4",
+                            "volume": 1
                         },
                         "start": 0,
-                        "length": 5
-                    },
-                    {
-                        "asset": {
-                            "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-dancing.mp4"
-                        },
-                        "start": 5,
-                        "length": 3
-                    },        
-                    {
-                        "asset": {
-                            "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/fireworks.mp4"
-                        },
-                        "start": 8,
-                        "length": 5
-                    },
-                    {
-                        "asset": {
-                            "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-ironing.mp4"
-                        },
-                        "start": 12,
-                        "length": 2
-                    },
-                    {
-                        "asset": {
-                            "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/presents-2.mp4"
-                        },
-                        "start": 14,
-                        "length": 2
-                    },
-                    {
-                        "asset": {
-                            "type": "video",
-                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/christmas/santa-hello.mp4"
-                        },
-                        "start": 16,
-                        "length": 4
+                        "length": 19
                     }
                 ]
             }
-        ]
+        ],
+        "fonts": [
+            {
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Miraculous-Christmas.ttf"
+            },
+            {
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Montserrat-Regular.ttf"
+            }
+        ],
+        "background": "#000000"
     },
     "output": {
         "format": "mp4",
-        "resolution": "preview"
+        "resolution": "sd"
     }
 }
