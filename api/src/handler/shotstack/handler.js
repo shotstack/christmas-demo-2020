@@ -21,7 +21,7 @@ module.exports.status = async (event) => {
     try {
         const status = await shotstack.status(event.pathParameters.id);
         console.log('Poll success');
-        return response.format(201, 'success', 'OK', status);
+        return response.format(200, 'success', 'OK', status);
     } catch (err) {
         console.error('Fail: ', err);
         return response.format(400, 'fail', 'Bad Request', err);
