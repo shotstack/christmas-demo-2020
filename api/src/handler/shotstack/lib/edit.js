@@ -3,7 +3,10 @@
 const fs = require('fs');
 const Joi = require('joi');
 
-const MESSAGE_INDEX = 1;
+const MESSAGE_TRACK_INDEX = 0;
+const FROM_INDEX = 1;
+const MESSAGE_INDEX = 2;
+
 
 const validateBody = (body) => {
     const schema = Joi.object({
@@ -35,8 +38,8 @@ const createJson = (body) => {
 
             let jsonParsed = JSON.parse(data);
 
-            jsonParsed.timeline.tracks[MESSAGE_INDEX].clips[1].asset.html = '<p>' + name + '</p>';
-            jsonParsed.timeline.tracks[MESSAGE_INDEX].clips[4].asset.html = '<p>' + message + '</p>';
+            jsonParsed.timeline.tracks[MESSAGE_TRACK_INDEX].clips[FROM_INDEX].asset.html = '<p>' + name + '</p>';
+            jsonParsed.timeline.tracks[MESSAGE_TRACK_INDEX].clips[MESSAGE_INDEX].asset.html = '<p>' + message + '</p>';
 
             const json = JSON.stringify(jsonParsed);
 
