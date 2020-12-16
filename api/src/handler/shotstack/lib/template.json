@@ -27,7 +27,7 @@
                         "asset": {
                             "type": "html",
                             "html": "<p>{{NAME}}</p>",
-                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 64px; text-align: center; }",
+                            "css": "p { font-family: \"Amatic SC\"; color: #ffffff; font-size: 64px; text-align: center; font-weight: bold; }",
                             "width": 450,
                             "height": 100
                         },
@@ -46,7 +46,7 @@
                         "asset": {
                             "type": "html",
                             "html": "<p>{{MESSAGE}}</p>",
-                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 54px; text-align: center; }",
+                            "css": "p { font-family: \"Amatic SC\"; color: #ffffff; font-size: 54px; text-align: center; font-weight: bold; }",
                             "width": 450,
                             "height": 200
                         },
@@ -85,7 +85,7 @@
                         "asset": {
                             "type": "html",
                             "html": "<p>{{SENDER}}</p>",
-                            "css": "p { font-family: \"Miraculous&Christmas\"; color: #ffffff; font-size: 64px; text-align: center; }",
+                            "css": "p { font-family: \"Amatic SC\"; color: #ffffff; font-size: 64px; text-align: center; font-weight: bold; }",
                             "width": 450,
                             "height": 100
                         },
@@ -118,7 +118,7 @@
         ],
         "fonts": [
             {
-                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Miraculous-Christmas.ttf"
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/AmaticSC-Bold.ttf"
             },
             {
                 "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Montserrat-Regular.ttf"

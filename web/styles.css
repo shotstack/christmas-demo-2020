@@ -73,3 +73,21 @@ a:hover {
 .info {
     cursor: pointer;
 }
+
+.form-control::placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #cccccc;
+}
+
+.form-control::-ms-input-placeholder {
+    color:  #cccccc;
+}
+
+.hidden {
+    position: absolute;
+    top: -10000px;
+}

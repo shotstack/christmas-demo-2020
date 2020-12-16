@@ -2,7 +2,7 @@ var apiUrl = 'http://localhost:3000/demo/'; // 'https://zyl6dj5116.execute-api.a
 var apiEndpoint = apiUrl + 'shotstack';
 var progress = 0;
 var progressIncrement = 10;
-var pollIntervalSeconds = 10;
+var pollIntervalSeconds = 5;
 var unknownError = 'An unknown error has occurred, please try again later.';
 var player;
 
@@ -169,8 +169,9 @@ function submitVideoEdit() {
 
     var formData = {
         'name': $('#name').val(),
-        'message': $('#message').val()
-    };
+        'message': $('#message').val(),
+        'from': $('#from').val()
+    };+
 
     $.ajax({
         type: 'POST',
@@ -244,19 +245,34 @@ function initialiseJson(json) {
  * @param {String} url 
  */
 function initialiseDownload(url) {
-    $('#download').attr("href", url);
+    $('#download').attr('href', url);
+    $('#url').val(url);
 }
+
+function copyURL() {
+    var copyText = document.getElementById('url');
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+
+    document.execCommand('copy');
+    alert('Video URL copied to clipboard. URL expires in 24 hours.');
+  } 
 
 /**
  * Event Handlers
  */
 $(document).ready(function () {
-
     /** Form submit event */
     $('form').submit(function (event) {
         resetErrors();
         resetVideo();
         submitVideoEdit();
+        event.preventDefault();
+    });
+
+    /** Share URL click event */
+    $('#share').click(function (event) {
+        copyURL();
         event.preventDefault();
     });
 });
