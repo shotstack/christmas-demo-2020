@@ -1,10 +1,10 @@
-# Shotstack Christmas Demo
+# Shotstack Christmas Personalised Video Maker Demo
 
 This project demonstrates how to use the Shotstack cloud video editing API to build an 
 application that adds personalised text to a Christmas video using a form.
 
-An HTML web form allows the user to a name and a personal message. A video is then 
-created by the Shotstack API that overlays the watermark on top of the video.
+An HTML web form allows the user to a recipient name, personal message and a from name. A video is then 
+created by the Shotstack API that overlays the text on top of the video.
 
 View the live demo at: https://shotstack.io/demo/christmas-video/
 
