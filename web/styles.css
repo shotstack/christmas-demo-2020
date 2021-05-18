@@ -91,3 +91,7 @@ a:hover {
     position: absolute;
     top: -10000px;
 }
+
+label {
+  font-weight: 600;
+} 
