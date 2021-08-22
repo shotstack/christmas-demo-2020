@@ -74,6 +74,10 @@ The project has been built as a serverless application using the Serverless Fram
 and AWS Lambda. To understand more about the Serverless Framework and how to set 
 everything up consult the documentation: https://serverless.com/framework/docs/providers/aws/
 
+Lambda deployment uses a centralised S3 bucket which must be created first and the .env variable
+`SERVERLESS_DEPLOYMENT_BUCKET_PREFIX` must be set. The serverless region is appended to the bucket prefix. The final
+deployment bucket will look something like: my-serverless-deploys-ap-southeast-2
+
 To deploy to AWS Lambda (from the _api_ directory):
 
 ```bash
@@ -85,3 +89,5 @@ Once the API is deployed set the `var apiEndpoint` variable in **web/app.js** to
 API Gateway URL.
 
 Run the **web/index.html** file locally or use AWS S3 static hosting to serve the web page.
+
+
